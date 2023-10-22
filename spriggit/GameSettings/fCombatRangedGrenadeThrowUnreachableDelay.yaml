@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00080E:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGrenadeThrowUnreachableDelay
+Data: 5

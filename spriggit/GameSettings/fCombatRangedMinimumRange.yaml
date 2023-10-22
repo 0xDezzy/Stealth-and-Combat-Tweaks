@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000818:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedMinimumRange
+Data: 5

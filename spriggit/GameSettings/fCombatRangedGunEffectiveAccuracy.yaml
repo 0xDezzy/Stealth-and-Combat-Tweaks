@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00081C:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGunEffectiveAccuracy
+Data: 0.2

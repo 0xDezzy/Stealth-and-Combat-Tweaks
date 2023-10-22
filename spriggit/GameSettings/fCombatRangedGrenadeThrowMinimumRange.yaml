@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000819:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGrenadeThrowMinimumRange
+Data: 6

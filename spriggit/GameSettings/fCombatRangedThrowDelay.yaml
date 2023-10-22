@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00080B:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedThrowDelay
+Data: 7

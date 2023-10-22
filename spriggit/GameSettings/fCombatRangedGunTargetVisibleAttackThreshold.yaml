@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000817:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGunTargetVisibleAttackThreshold
+Data: 0.45

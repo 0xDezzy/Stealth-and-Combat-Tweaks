@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000812:StealthAndCombatTweaks.esm
+EditorID: fCombatCoverAdvanceChanceMid
+Data: 0.5

@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000807:StealthAndCombatTweaks.esm
+EditorID: fCombatInitialMovementDelayTime
+Data: 0.01

@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000806:StealthAndCombatTweaks.esm
+EditorID: fCombatAttackAnimationDrivenDelayTime
+Data: 0.15

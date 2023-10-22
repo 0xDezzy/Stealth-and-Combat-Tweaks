@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000816:StealthAndCombatTweaks.esm
+EditorID: fCombatFallbackChanceMax
+Data: 0.5

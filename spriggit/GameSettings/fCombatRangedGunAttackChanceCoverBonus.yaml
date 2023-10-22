@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000814:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGunAttackChanceCoverBonus
+Data: 0.7

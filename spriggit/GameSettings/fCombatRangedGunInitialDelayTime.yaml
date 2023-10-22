@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000808:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGunInitialDelayTime
+Data: 0.01
