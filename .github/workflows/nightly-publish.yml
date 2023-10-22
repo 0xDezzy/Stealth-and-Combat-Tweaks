@@ -37,7 +37,7 @@ publish:
     
     - name: Extract Spriggit Zip
       shell: bash
-      run: 7z x .github/sppriggit.zip -o .github/spriggit
+      run: 7z x .github/sppriggit.zip -o.github/spriggit
     
     - name: Fix Spriggit Perms
       shell: bash
