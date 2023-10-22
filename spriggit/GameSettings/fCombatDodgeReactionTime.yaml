@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000804:StealthAndCombatTweaks.esm
+EditorID: fCombatDodgeReactionTime
+Data: 0.1

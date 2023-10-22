@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000805:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGunAnimationDrivenDelayTime
+Data: 0.25

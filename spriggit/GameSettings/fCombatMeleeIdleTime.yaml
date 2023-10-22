@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000800:StealthAndCombatTweaks.esm
+EditorID: fCombatMeleeIdleTime
+Data: 0.01

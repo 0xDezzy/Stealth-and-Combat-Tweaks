@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000801:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGrenadeIdleTime
+Data: 0.1

@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000802:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGunFireWaitTimeMax
+Data: 0.3
