@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00082D:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGunAimVariance
+Data: 0.75

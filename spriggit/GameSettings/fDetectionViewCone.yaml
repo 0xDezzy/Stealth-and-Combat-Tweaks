@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00081D:StealthAndCombatTweaks.esm
+EditorID: fDetectionViewCone
+Data: 150

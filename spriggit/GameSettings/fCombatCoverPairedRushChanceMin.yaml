@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00082C:StealthAndCombatTweaks.esm
+EditorID: fCombatCoverPairedRushChanceMin
+Data: 0.45

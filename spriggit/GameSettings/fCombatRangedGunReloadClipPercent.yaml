@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00082A:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGunReloadClipPercent
+Data: 0.3
