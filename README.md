@@ -25,6 +25,7 @@ A general summary of changes can be seen below:
 * Enemy NPC's will be more aggressive
 * NPC's will use cover more
 * Removed bullet sponges
+* Lowers players bonus health per level to decrease time to kill for enemies.
 * Increased damage dealt across the board
 
 ### Stealth
