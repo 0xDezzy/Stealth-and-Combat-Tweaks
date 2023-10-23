@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000839:StealthAndCombatTweaks.esm
+EditorID: fSneakDistanceAttenuationExponent
+Data: 1.8

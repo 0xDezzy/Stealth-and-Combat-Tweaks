@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000832:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGunSemiAutoRecoilMax
+Data: 5

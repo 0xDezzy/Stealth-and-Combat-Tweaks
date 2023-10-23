@@ -8,8 +8,8 @@ ModHeader:
   - Master
   Stats:
     Version: 0.96
-    NumRecords: 69
-    NextFormID: 2094
+    NumRecords: 82
+    NextFormID: 2106
   Author: ''
   MasterReferences:
   - Master: Starfield.esm

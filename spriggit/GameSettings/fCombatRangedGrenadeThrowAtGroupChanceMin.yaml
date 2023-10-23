@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000838:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGrenadeThrowAtGroupChanceMin
+Data: 0.03

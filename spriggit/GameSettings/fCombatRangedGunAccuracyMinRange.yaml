@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000831:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGunAccuracyMinRange
+Data: 10

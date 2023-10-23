@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000837:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedStandoffTimer
+Data: 5

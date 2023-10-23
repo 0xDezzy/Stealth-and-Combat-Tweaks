@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000830:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGunCooldownRecoilTimeMin
+Data: 0.2

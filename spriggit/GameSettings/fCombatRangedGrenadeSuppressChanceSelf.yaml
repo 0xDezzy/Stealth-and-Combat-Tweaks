@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000836:StealthAndCombatTweaks.esm
+EditorID: fCombatRangedGrenadeSuppressChanceSelf
+Data: 0.3
