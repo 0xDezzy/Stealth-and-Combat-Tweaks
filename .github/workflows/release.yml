@@ -39,7 +39,14 @@ jobs:
             with:
               files: modfiles/
               dest: StealthAndCombatTweaks-${{ github.ref_name }}.zip
-                  
+ 
+          - name: Delete Release if exists
+            uses: dev-drprasad/delete-tag-and-release@v1.0
+            with:
+              tag_name: ${{ github.ref_name}}
+              github_token: ${{ secrets.GITHUB_TOKEN }}
+              delete_release: true
+           
           - name: Create Release
             id: create_release
             uses: ncipollo/release-action@v1.13.0
