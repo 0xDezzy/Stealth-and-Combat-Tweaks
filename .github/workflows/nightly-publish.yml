@@ -71,7 +71,7 @@ jobs:
           allowUpdates: true
           name: Nightly
           draft: false
-          body: Nightly release of the latest patch
+          body: Nightly release of the latest version
           tag: nightly
           prerelease: true
           makeLatest: true

@@ -1,0 +1,64 @@
+name: release-publish
+on:
+  push:
+    tags:
+        - '*.*.*'
+  workflow_dispatch:
+jobs:
+    publish:
+        permissions: write-all
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v2
+                  
+          - name: Fetch spriggit
+            shell: bash
+            run: gh release download -O .github/spriggit.zip -p 'SpriggitLinuxCLI.zip' -R Mutagen-Modding/Spriggit ${{ inputs.spriggit_tool_version }}
+            env:
+              GH_TOKEN: ${{ github.token }}
+              
+          - name: Extract Spriggit Zip
+            shell: bash
+            run: 7z x .github/spriggit.zip -o.github/spriggit
+    
+          - name: fix spriggit permission
+            shell: bash
+            run: chmod +x .github/spriggit/Spriggit.CLI
+    
+          - name: run spriggit
+            shell: bash
+            run: .github/spriggit/Spriggit.CLI deserialize --InputPath "spriggit" --OutputPath "${{ github.workspace }}/modfiles/esm/StealthAndCombatTweaks.esm" --PackageName Spriggit.Yaml.Starfield
+    
+          - name: Delete gitkeep
+            shell: bash
+            run: rm ${{ github.workspace }}/modfiles/esm/.gitkeep
+    
+          - name: zip
+            uses: vimtor/action-zip@v1
+            with:
+              files: modfiles/
+              dest: StealthAndCombatTweaks.zip
+    
+          - name: Delete Existing Release
+            uses: dev-drprasad/delete-tag-and-release@v1.0
+            with:
+              tag_name: nightly
+              github_token: ${{ secrets.GITHUB_TOKEN }}
+              delete_release: true
+              
+          - name: Create Release
+            id: create_release
+            uses: ncipollo/release-action@v1.13.0
+            env:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            with:
+              allowUpdates: false
+              name: Latest
+              draft: false
+              body: Release of the version
+              prerelease: false
+              makeLatest: true
+              removeArtifacts: true
+              replacesArtifacts: true
+              artifacts: StealthAndCombatTweaks.zip
