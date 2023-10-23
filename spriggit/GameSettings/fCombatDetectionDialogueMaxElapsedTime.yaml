@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00084E:StealthAndCombatTweaks.esm
+EditorID: fCombatDetectionDialogueMaxElapsedTime
+Data: 30

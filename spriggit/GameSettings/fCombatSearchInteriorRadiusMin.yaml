@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000842:StealthAndCombatTweaks.esm
+EditorID: fCombatSearchInteriorRadiusMin
+Data: 40

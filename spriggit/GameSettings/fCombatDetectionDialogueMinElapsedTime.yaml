@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00084D:StealthAndCombatTweaks.esm
+EditorID: fCombatDetectionDialogueMinElapsedTime
+Data: 5

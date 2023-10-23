@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00083D:StealthAndCombatTweaks.esm
+EditorID: fDetectEventDistanceNPC
+Data: 12

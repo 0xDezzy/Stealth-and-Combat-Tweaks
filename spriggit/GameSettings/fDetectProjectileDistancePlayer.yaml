@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00083C:StealthAndCombatTweaks.esm
+EditorID: fDetectProjectileDistancePlayer
+Data: 12

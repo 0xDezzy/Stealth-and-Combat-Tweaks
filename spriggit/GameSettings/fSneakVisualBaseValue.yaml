@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00083A:StealthAndCombatTweaks.esm
+EditorID: fSneakVisualBaseValue
+Data: -15

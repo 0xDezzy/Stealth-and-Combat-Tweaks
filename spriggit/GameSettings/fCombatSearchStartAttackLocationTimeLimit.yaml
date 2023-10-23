@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000844:StealthAndCombatTweaks.esm
+EditorID: fCombatSearchStartAttackLocationTimeLimit
+Data: 20

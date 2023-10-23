@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000849:StealthAndCombatTweaks.esm
+EditorID: fCombatDetectionLostTimeLimit
+Data: 40

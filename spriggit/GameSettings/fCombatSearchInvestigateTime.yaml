@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000846:StealthAndCombatTweaks.esm
+EditorID: fCombatSearchInvestigateTime
+Data: 10

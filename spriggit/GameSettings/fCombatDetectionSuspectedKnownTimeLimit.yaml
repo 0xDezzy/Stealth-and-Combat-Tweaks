@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00084C:StealthAndCombatTweaks.esm
+EditorID: fCombatDetectionSuspectedKnownTimeLimit
+Data: 20

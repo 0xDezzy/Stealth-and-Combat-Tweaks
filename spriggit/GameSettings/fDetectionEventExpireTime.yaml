@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 00084F:StealthAndCombatTweaks.esm
+EditorID: fDetectionEventExpireTime
+Data: 7
