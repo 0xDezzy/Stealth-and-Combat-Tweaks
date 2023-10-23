@@ -54,4 +54,4 @@ jobs:
               makeLatest: true
               removeArtifacts: true
               replacesArtifacts: true
-              artifacts: StealthAndCombatTweaks.zip
+              artifacts: StealthAndCombatTweaks-${{ github.ref_name }}.zip
